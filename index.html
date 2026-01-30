@@ -17,5 +17,21 @@
             </p>
             <footer>© 2026 Mehrsam Raeisi</footer>
         </main>
+        <section class="game-section">
+            <h2>Play: Dino Runner</h2>
+            <div class="game-container">
+                <div class="game-stage">
+                    <canvas id="game" width="800" height="200" aria-label="Dino runner game"></canvas>
+                    <div id="overlay" class="game-overlay">Tap or press <kbd>Space</kbd> to start</div>
+                </div>
+                <div class="game-controls">Press <kbd>Space</kbd> or <kbd>↑</kbd> to jump. Click or tap to jump.</div>
+                <div class="game-ui">
+                    <div id="score" class="score">Score: 0</div>
+                    <div id="best" class="best">Best: 0</div>
+                    <button id="restart" class="button">Restart</button>
+                </div>
+            </div>
+        </section>
+        <script src="game.js"></script>
     </body>
 </html>
